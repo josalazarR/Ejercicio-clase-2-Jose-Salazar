@@ -1,0 +1,325 @@
+/*.botonhome {
+    position: fixed;
+    width: 191px;
+    height: 80px;
+    top: 0;
+    left: 0;
+    -webkit-text-stroke: 1px #0000002b;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: x-large;
+    font-weight: 191px;
+    color: #000000;
+    border-radius: 15px;
+}
+
+.sobrenosotros {
+    position: fixed;
+    width: 191px;
+    height: 80px;
+    top: 0;
+    left: 0;
+    -webkit-text-stroke: 1px #0000002b;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: x-large;
+    font-weight: 191px;
+    color: #000000;
+    border-radius: 15px;
+}
+.image {
+    width: 288px;
+    height: 106px;
+    }
+    .image .img {
+    position: Fixed;
+    width: 288px;
+    height: 106px;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    border-radius: 15%;
+    }
+
+.body {
+    width: 100%;
+    height: 100%;
+    background-image: url(/Assets/Images/pexels-karolina-grabowska-5412499\ 1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.cover {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .50)
+}
+
+.label {
+    width: 191px;
+    height: 80px;
+    }
+    .label .text-wrapper {
+    position: fixed;
+    width: 191px;
+    height: 80px;
+    top: 0;
+    left: 0;
+    -webkit-text-stroke: 1px #0000002b;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    }
+    .header {
+position: relative;
+width: auto;
+height: 106px;
+}*/
+
+/*
+.pgina-principal {
+    display: flex;
+    flex-direction: column;
+    height: 768px;
+    align-items: flex-start;
+    position: relative;
+    background-color: #ffffff;
+}
+
+.pgina-principal .header {
+    position: relative;
+    width: 1024px;
+    height: 106px;
+    background-color: transparent;
+}
+
+.pgina-principal .image {
+    position: absolute;
+    width: 288px;
+    height: 106px;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+}
+
+.pgina-principal .text-wrapper {
+    position: absolute;
+    width: 191px;
+    height: 80px;
+    top: 5px;
+    left: 416px;
+    -webkit-text-stroke: 1px #0000002b;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.pgina-principal .div {
+    position: absolute;
+    width: 191px;
+    height: 80px;
+    top: 5px;
+    left: 775px;
+    -webkit-text-stroke: 1px #0000002b;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.pgina-principal .pexels-karolina {
+    width: 100%;
+    height: 100%;
+    background-image: url(/Assets/Images/pexels-karolina-grabowska-5412499\ 1.jpg);
+    background-size: cover;
+    background-position: center; 
+}*/
+
+.cuerpo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: auto;
+    height: auto;
+    background-image: url(./Assets/Images/pexels-karolina-grabowska-5412499\ 1.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 0;
+    margin: 0;
+}
+
+.contenido {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 450px;
+    height: 500px;
+    padding-left: 45px;
+    padding-right: 45px;
+    margin-left: 30px;
+    margin-right: 30px;
+    border: 3px solid green;
+    text-align: center;
+    margin: auto;
+    font-family: 'Playpen Sans', cursive;
+    font-size: smaller;
+
+
+}
+
+.botones {
+    width: 50px;
+    height: 35px;
+    background-color: black;
+    color: white;
+    border: 2px solid whitesmoke;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 12px;
+    cursor: pointer;
+}
+
+.botones:hover {
+    background-color: darkgreen;
+
+}
+
+.botones:active {
+    background-color: gold;
+}
+
+
+
+.under {
+    text-decoration: underline;
+}
+
+.navbar {
+
+    display: flex;
+    width: auto;
+    height: 72px;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 0 24px;
+    box-sizing: border-box;
+    margin: auto;
+
+}
+
+.logo {
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    padding: 0 24px;
+}
+
+.pie {
+    display: flex;
+    width: auto;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #FFF;
+    padding: 5px;
+    text-align: center;
+    clear: both;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.inicio {
+    display: flexbox;
+    width: 70px;
+    height: 24px;
+    background-color: black;
+    color: white;
+    border: 2px solid whitesmoke;
+    font-size: 12px;
+    font-weight: 75;
+    margin: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.nosotros {
+    display: flexbox;
+    width: auto;
+    height: auto;
+    background-color: black;
+    color: white;
+    border: 2px solid whitesmoke;
+    font-size: 12px;
+    font-weight: 100;
+    margin: 10px;
+    cursor: pointer;
+    text-align: center;
+    
+}
+ 
+  
+
+.inicio:hover {
+    background-color: darkgreen;
+
+}
+
+.inicio:active {
+    background-color: gold;
+}
+
+.nosotros:hover {
+    background-color: darkgreen;
+
+}
+
+.nosotros:active {
+    background-color: gold;
+}
+
+.imagen {
+    display: flex;
+    height: 65px;
+    background-color: tra;
+
+}
+
+.calcu {
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-family: 'Playpen Sans';
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+
+}
+
+input[type="number"] {
+    /* Estilos del los imputs valo1 y valor2 */
+    width: 200px;
+    height: 20px;
+    padding: 4px;
+    border: 2px solid green;
+    border-radius: 5px;
+}
+.centrarholder{
+    text-align: center;
+    font-size: 18px;
+   
+
+}

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.jpg" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Playpen+Sans:wght@500&display=swap"
+        rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@500&display=swap');
+    </style>
+    <link rel="stylesheet" href="./calculadora.css">
+    <title>Calculadora On-Line</title>
+</head>
+
+<body class="cuerpo">
+
+    <section class="home">
+
+        <div class="cover">
+
+            <div class="navbar">
+
+                <div class="imagen">
+                    <img
+                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAEDElEQVR4nI2Ua1MaZxiG/UnVRkwUOR92YYGFXc6IWBo77bST1tR6aKY2M2lzmH4SsTGJViMKGA+crAr6G+qhVmf0UybJ5F/cneeFJaTjYpnh63Pde93P+3R0tPzkgaQ/mBh+H0jchj+ehBxPwhcbghhNwBOOwxUagBCIwumPgJfD4HxB2LwBWDx+mN0STILvrUnwuTrUfsGhL96nXuaRqRwgU9nHcnkfL8s1LJWqWCxW8Udhj/0XtnYxv7WLF5s7eL7xJ57Rf30bD9IL0POeN6qA0NAwMtsHiA5/dXX6YEwlvQxOjmDuVQV6hwdtvqAOID0bp1NY//snbJz+jL2LaZTPHqF09hDVixQK/zxA9vgHrB6NYvXoe6wc3YVR8OHpqwp0/HWAygFLXx9+H3sXKZTPafgjVC9mUDz7BXfmRfATGtjHb+DrZy6sHI7A4PTi6VoF/ZxbHUDlkntp4DNsnt5nacvnj1n6WmN47ngM/ERPM711rAuZwxHonSJ+XytDa3epA/yDn2O5ss/cVy9nUD5/wgC1yzRKZ78idzyO7PEYxKk+TOaCmMgGINzrQebwO+b+ekA8yTbHG02gwoY/aQx/yIZTenLvmerF3SUfRhZFOO9psHz4LXNPgD67oA4g97SWYgNQu5xlw/MnE830BODGu1mx5N48+skHQL6MPlsbALlXAPuXs8x9/mSyJf0Yc//NcxdzbxntxJdzPANQubP5EnqtTnUAuWeAyCBzv3Yy2Uyv6CGAkp7c0/Dlv+4w9wS4ZXG0ByyVavAnbjfPgkO++izQ3tPmULmU3uSWkc6VcNPCqwOo3NazsFDYVT0L9GrpYVGx5J7Sp3NF9JjbAMQGQIonm+k90QTmN3cghGLN9HYpzABWb4Clp80xuCTMXAuIDLL0ys0hACeFWHqrWL85Jpfvo7NA7mlzyD0BNCZOHUBHbbG4ByEQ+eiovdjcgcUj10+yyweDU2ycBRdLT5tzy8JjJluExmhXB7hDA8y9KxSDzSPD4pbASyHmnr5Ax7mhtQswCl7mXse7oTHY0K23otfmQCpbRLfRpg6gzVHKpWLJ/ZXlrtXLpWKVcil9arWAG4b/AaCyyb3dG4QzGGMA3h9urqZFDLDNMbp9TA+tZr9DZIBP9VZ1AJVL6Vv33ir6Wfq6e29z7ym5Ui5tDrmfXi2gS2dpAwhE2d5zUpClp+FULqkh75S+vjlC4yw4WHranG6jFdMrW+0BtDnknpdDMDq9MDrE+hesb7Mv6LU4cNPMsXLrX+BEV78ZnVojNCZ7A2BWB/BS+N3juSVWbLNcVuz2h1fbKJfOAu09bQ65Jz0//pZGp9b0WhXgEIMezhd4q+hRHpbi/r8PS3FPq0nldunMrzu1Zq516L9z5AW0rFrGgwAAAABJRU5ErkJggg==">
+                </div>
+
+                <div class="calcu">
+                    <p>Calculadora On Line</p>
+                </div>
+
+                <div class="logo">
+                    <button class="inicio">Home</button>
+                </div>
+
+                <button class="nosotros">Sobre Nosotros</button>
+            </div>
+        </div>
+        <hr color="black">
+        <br>
+
+
+        <div class="contenido">
+            <h1 class="under">Calcular Fácilmente</h1>
+            
+            <div>
+                <h3>Ingresa el Primer valor</h3>
+
+                <div class="cantidad">
+                    <input id="valor1" type="number" step="any" class="centrarholder"
+                        placeholder="Ingrese solo números">
+                </div>
+            </div> <br>
+
+            <div>
+                <h3>Ingresa el Segundo valor</h3>
+
+                <div class="cantidad">
+                    <input id="valor2" type="number" step="any" class="centrarholder"
+                        placeholder="Ingrese solo números">
+                </div>
+            </div>
+            <h3>Selecciona la Operación que deseas hacer</h3>
+            <div>
+                <button title="Sumar" class="botones" onclick="sumatoria()">+</button>
+                <button title="Restar" class="botones" onclick="resta()">-</button>
+                <button title="Multiplicar" class="botones" onclick="multiplo()">x</button>
+                <button title="Dividir" class="botones" onclick="dividir()">/</button>
+            </div>
+
+            <h3>Resultado</h3>
+            <div class="cantidad">
+                <!--<p><span id="resultado"></span></p>-->
+                <input id="resultado" type="number" min="1" step="any" class="centrarholder" readonly>
+            </div>
+            <span id="errormensaje"></span>
+
+
+
+        </div>
+
+
+    </section>
+    <script src="./codigo.js"></script>
+    <br><br><br><br><br><br>
+    <footer class="pie">
+        <p>Derechos reservados &copy; 2023</p><br>
+        <a href="https://www.linkedin.com/in/jogsalazar/"><img src="./Assets/Images/icons8-linkedin-48.png"
+                alt="LinkedIn"></a>
+    </footer>
+</body>
+
